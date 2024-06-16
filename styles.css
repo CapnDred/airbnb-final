@@ -141,3 +141,14 @@ main{
     color: black;
     width: 25%;
 }
+.places ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    gap: 20px; 
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.places ul span{
+    font-weight: bold
+}
