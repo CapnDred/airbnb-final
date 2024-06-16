@@ -35,7 +35,7 @@ body {
 
 header{
     color: #000000;
-    background-color: #f4f4f4;
+    /* background-color: #f4f4f4; */
     border: 1px solid black;
     margin: 10px;
     padding: 1px 75px 1px 25px;
@@ -66,6 +66,7 @@ nav {
     display: flex;
     flex-direction: column;
     padding-top: 20px;
+    
 }
 
 .nested-searchbar p {
@@ -123,4 +124,20 @@ main{
     width: 365px;
     height: 365px;
     border-radius: 5%;
+}
+.inspiration-menu ul {
+    white-space: nowrap;
+}
+
+.inspiration-menu li {
+    display: inline-block;
+}
+.links{
+    background-color:#f4f4f4;
+}
+
+.links a {
+    text-decoration: none;
+    color: black;
+    width: 25%;
 }
