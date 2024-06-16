@@ -152,3 +152,8 @@ main{
 .places ul span{
     font-weight: bold
 }
+.currency ul{
+    /* font-weight: bold */
+    width: 100%;
+    display: inline-block;
+}
